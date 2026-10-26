@@ -1,0 +1,14 @@
+{
+  "name": "ancvertex-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ANC Vertex web sitesi (bağımlılıksız statik üretici + iletişim API'si)",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs && node server.mjs",
+    "dev": "node build.mjs && node server.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}
